@@ -21,19 +21,19 @@ export class Global {
 
     static get location() {
         if (!testing) {
-            return location;
+            return window.location;
         }
     }
 
     static get localStorage() {
         if (!testing && typeof window !== 'undefined') {
-            return localStorage;
+            return window.localStorage;
         }
     }
 
     static get sessionStorage() {
         if (!testing && typeof window !== 'undefined') {
-            return sessionStorage;
+            return window.sessionStorage;
         }
     }
 
