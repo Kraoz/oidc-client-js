@@ -1,6 +1,6 @@
 {
   "name": "oidc-client",
-  "version": "1.11.6-beta.1",
+  "version": "1.12.0",
   "description": "OpenID Connect (OIDC) & OAuth2 client library",
   "main": "lib/oidc-client.min.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IdentityModel/oidc-client-js.git"
+    "url": "https://github.com/Kraoz/oidc-client-js.git"
   },
   "author": "Brock Allen & Dominick Baier",
   "contributors": [
